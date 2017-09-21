@@ -1,6 +1,5 @@
 #Name: Susie Odneal
 # COSC1336, Lab 3, part 1
-#
 
 def start():
     print('Good morning!\n')
@@ -61,10 +60,10 @@ def rain():
     print('After getting your coat, you look out the window again.')
     print('Is it raining?\n')
     raining = input('[y]es or [n]o')
-    if raining == 'y':
+    if raining in 'Yy':
         print('You get an umbrella from the closet.')
         dressed()
-    elif raining == 'n':
+    elif raining in 'Nn':
         print('No need for an umbrella!')
         dressed()
     else:
@@ -104,3 +103,37 @@ def die():
 
 
 start()
+
+# Good morning!
+#
+# You wake up to find yourself in your bed.
+# Better check the weather so you can get dressed.
+# You can:
+#
+# Go to the window: [w]
+# Go back to sleep: [s]
+#
+# What do you do? w
+# You shuffle over to the window.
+#
+# There is a thermometer here.
+# You can:
+#
+# Read the thermometer: [t]
+# Go back to sleep: [s]
+#
+# What do you do? t
+
+# You squint at the thermometer?
+# What does it say? It's in Farenheits. 13
+
+# It's cold! Better take a jacket.
+# After getting your coat, you look out the window again.
+# Is it raining?
+#
+# [y]es or [n]o Y
+
+# You get an umbrella from the closet.
+# You dress and gather your belongings.
+# You go to the door and step outside, ready to face the day!
+# Restart? [y] [n]
