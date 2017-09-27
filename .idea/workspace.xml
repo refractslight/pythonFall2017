@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f26f9415-c397-44ff-9cbe-5c19d840846a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TT16_L3_Odneal_part3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TT16_L3_Odneal_part2.py" afterPath="$PROJECT_DIR$/TT16_L3_Odneal_part2.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,14 +25,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TT16_L3_Odneal_part2.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TT16_L3_Odneal_part2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TT16_L3_Odneal_part2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="75" column="31" lean-forward="true" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="25" />
               <folding>
                 <element signature="e#47#58#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TT16_L3_Odneal_part3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TT16_L3_Odneal_part3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,6 +58,7 @@
         <option value="$PROJECT_DIR$/textAdventure" />
         <option value="$PROJECT_DIR$/TT16_L3_Odneal_part1.py" />
         <option value="$PROJECT_DIR$/TT16_L3_Odneal_part2.py" />
+        <option value="$PROJECT_DIR$/TT16_L3_Odneal_part3.py" />
       </list>
     </option>
   </component>
@@ -102,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TT16_L3_Odneal_part2">
+  <component name="RunManager" selected="Python.TT16_L3_Odneal_part3">
     <configuration name="TT16_L3_Odneal_part1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,14 +150,33 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="2">
+    <configuration name="TT16_L3_Odneal_part3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pythonFall2017" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TT16_L3_Odneal_part3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.TT16_L3_Odneal_part1" />
       <item index="1" class="java.lang.String" itemvalue="Python.TT16_L3_Odneal_part2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.TT16_L3_Odneal_part3" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.TT16_L3_Odneal_part2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.TT16_L3_Odneal_part1" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.TT16_L3_Odneal_part3" />
+        <item index="1" class="java.lang.String" itemvalue="Python.TT16_L3_Odneal_part2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.TT16_L3_Odneal_part1" />
       </list>
     </recent_temporary>
   </component>
@@ -243,11 +275,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TT16_L3_Odneal_part2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="75" column="31" lean-forward="true" selection-start-line="75" selection-start-column="31" selection-end-line="75" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="25" />
           <folding>
             <element signature="e#47#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TT16_L3_Odneal_part3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

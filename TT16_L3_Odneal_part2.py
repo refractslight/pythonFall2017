@@ -13,7 +13,7 @@ def start():
 
     if hack in 'Ll':
         liberty()
-    if hack in 'Cc':
+    if hack in 'Ss':
         satellite()
     else:
         print('Invalid Entry. Try again.')
@@ -76,3 +76,44 @@ def end():
         sys.exit("TERMINATING")
 
 start()
+
+# Output Example
+# |---------- WELCOME TO HAXX0R-TR0N 2k ----------|
+#
+# What do you want to hack?
+#
+# Statue of [L]iberty or [S]atellite
+# S
+# INFILTRATING NASA
+# [                                        ]
+# ----------------------------------------
+# done
+# Do you want to broadcast a message?
+#
+# [Y]es or [N]oY
+# Enter broadcast message:Hello
+# [                                        ]
+# ----------------------------------------
+# Satellite is now broadcasting" Hello "across space.
+#
+# Hacking complete.
+#
+# Hack again?
+# [Y]es or [N]o
+# Y
+# |---------- WELCOME TO HAXX0R-TR0N 2k ----------|
+#
+# What do you want to hack?
+#
+# Statue of [L]iberty or [S]atellite
+# L
+# INFlILTRATING MAINFRAME
+#
+# [                                        ]
+# ----------------------------------------
+# Hacking complete.
+#
+# Hack again?
+# [Y]es or [N]o
+# N
+# TERMINATING
