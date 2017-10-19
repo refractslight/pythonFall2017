@@ -1,7 +1,7 @@
 #Name: Susie Odneal
 # COSC1336, Lab 3, part 1
 
-def start():
+def weather():
     print('Good morning!\n')
     print('You wake up to find yourself in your bed.')
     print('Better check the weather so you can get dressed.')
