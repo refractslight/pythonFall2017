@@ -1,4 +1,4 @@
-# Name:
+# Name: Susie Odneal
 # COSC1336, Lab 5a, part 2: Use a tip function to create a tip table
 
 # First, modify the display total due function so that when it is called with the values
@@ -24,7 +24,7 @@
 # a tip rate of 10%, 15%, 20% and 25%.  The tax rate should be the
 # same in each case (8.25%), so it should be stored in a constant
 # called TAX_RATE.
-
+tax_rate = .0825
 # display_total_due function
 #   inputs: the original bill (with tax), the tip rate, and the tax rate
 #   output: displays the total due, with tip and tax
@@ -33,9 +33,12 @@
 #               the tip and the tax to the original bill
 def display_total_due(bill_with_tax, tip_rate, tax_rate):
     bill_without_tax = bill_with_tax / (1 + tax_rate)
+    #print('bill without tax', bill_without_tax)
     tip = bill_without_tax * tip_rate
+    #print('tip',tip)
     total_due = bill_with_tax + tip
-    print("Total due with ", tax_rate, "% tip: ", total_due)
+    #print('total due', total_due)
+    print("Total due with ", format(tax_rate, '.2%'), " tip: $", format(total_due, '.2f'))
 
 
 # Add a main function here
@@ -43,15 +46,19 @@ def display_total_due(bill_with_tax, tip_rate, tax_rate):
 # Your main function will then call the display_total_due function 4 times.
 
 def main():
-    billWithTax = float(input("How much what the total bill with tax?\n"))
-    taxRate = float(input("What is the tax rate?"))
-    tipRate = float(input("What is the tip rate?"))
-    display_total_due(billWithTax, taxRate, tipRate)
-    # display_total_due()
-    # display_total_due()
-    # display_total_due()
+    bill_with_tax = float(input("How much was the total bill with tax?\n"))
+    tip_rate = .10
+    for i in range(0,4):
+        display_total_due(bill_with_tax, tax_rate, tip_rate)
+        tip_rate += .05
 
 # Call the main function here.
 main()
 
 # Paste your output below:
+# How much was the total bill with tax?
+# 16.24
+# Total due with  10.00%  tip: $ 17.46
+# Total due with  15.00%  tip: $ 17.41
+# Total due with  20.00%  tip: $ 17.36
+# Total due with  25.00%  tip: $ 17.31
