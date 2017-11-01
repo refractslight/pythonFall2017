@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f26f9415-c397-44ff-9cbe-5c19d840846a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TT16_L4_Odneal_P3_prime.py" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TT16_L5b_Odneal_isPrime.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TT16_L5a_Odneal_scope.py" afterPath="$PROJECT_DIR$/TT16_L5a_Odneal_scope.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
