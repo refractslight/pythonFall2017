@@ -1,5 +1,5 @@
 #Name: Susie Odneal
-# COSC1336, Lab 4, part 3
+# COSC1336, Lab 5b, isPrime
 
 import random
 
@@ -35,3 +35,15 @@ def bye():
 
 
 main()
+
+# Output:
+# 14 is composite.
+# 52 is composite.
+# 43 is prime.
+# 60 is composite.
+# 3 is prime.
+# 32 is composite.
+# 22 is composite.
+# 62 is composite.
+# 19 is prime.
+# 5 is prime.
